@@ -21,5 +21,16 @@ module.exports = [
       patente: 'JJK116',
       vendido: false,
     },
+    {
+      marca: 'Chevrolet',
+      modelo: 'Cruze',
+      color: 'Negro',
+      anio: 2020,
+      km: 0,
+      precio: 100000,
+      cuotas: 14,
+      patente: 'JJK117',
+      vendido: false,
+    },
   ]
 
