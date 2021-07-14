@@ -5,6 +5,11 @@ const clientes = JSON.parse(fs.readFileSync('./clientes.json','utf-8'))
 const concesionaria = {
     autos : autos,
     clientes : clientes,
+    listarAutos : function(){
+      this.autos.forEach(auto => {
+         console.log(auto)
+      });
+    },
     buscarAuto : function(patente){
         for(let i = 0; i < concesionaria.autos.length; i++){
            if(autos[i].patente === patente){
